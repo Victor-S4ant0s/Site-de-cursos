@@ -143,3 +143,22 @@ footer {
         max-width: 100%;
     }
 }
+
+/* Botão do YouTube no rodapé */
+.btn-youtube {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #FF0000; /* Vermelho característico do YouTube */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-youtube:hover {
+    background: #CC0000;
+    color: #fff;
+    transform: scale(1.05);
+}
