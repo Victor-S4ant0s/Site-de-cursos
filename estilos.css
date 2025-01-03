@@ -68,9 +68,11 @@ nav a:hover {
 }
 
 .curso-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    display: grid; /* Layout de grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsividade */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaço entre os itens */
+    padding: 20px;
 }
 
 .curso {
@@ -84,7 +86,8 @@ nav a:hover {
 }
 
 .curso:hover {
-    transform: translateY(-5px);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -116,6 +119,7 @@ nav a:hover {
 .btn:hover {
     background-color: #333;
     color: white;
+    background: linear-gradient(45deg, #333, #666);
 }
 
 /* Rodapé */
