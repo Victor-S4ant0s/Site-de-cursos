@@ -1,0 +1,7 @@
+git init -> inicializar ou reinicializar repositório
+git add . -> adicionar todos os arquivos ao repositório
+git status -> verificar quais mudanças precisam ser enviadas
+git commit -m "mensagem" -> mensagem de alteração de código
+git commit -m origin main -> verificar mudanças recentes
+git log -> verificar todas as mudanças
+git push origin main -> enviar mudanças ao repostório remoto
